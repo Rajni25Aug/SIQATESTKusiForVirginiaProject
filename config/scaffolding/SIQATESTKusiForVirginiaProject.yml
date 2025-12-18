@@ -7,10 +7,17 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+- name: SIQA_OriginTest_OnPremAssets
+  gitServerName: RajniVCTest
+  gitUrl: https://github.com/vijetadixit
+  gitUsername: Rajni25Aug
+  gitBranch: Test2
 services:
 - serviceName: project.siqatestkusiforvirginia.integrations:Sum
   packages:
   - name: SIQATESTKusiForVirginiaProject
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
@@ -23,6 +30,8 @@ services:
 - serviceName: project.siqatestkusiforvirginia.integrations:deepclonetest
   packages:
   - name: SIQATESTKusiForVirginiaProject
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:

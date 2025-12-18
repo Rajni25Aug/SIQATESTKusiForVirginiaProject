@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">KumariRajni.Singh@ibm.com</value>
-    <value name="createdDate">1766060481940</value>
-    <value name="lastModifiedDate">1766060481940</value>
+    <value name="lastModifiedBy">KumariRajni.Singh@ibm.com</value>
+    <value name="lastModifiedDate">1766060546183</value>
     <value name="displayName">reftest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -63,6 +62,23 @@
           <value name="displayName">refrenceData</value>
           <value name="serviceName">project.siqatestkusiforvirginia.referencedata:refrenceData</value>
           <double name="rank" type="Double">0.4</double>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">SIQA_OriginTest_OnPremAssets</value>
+          <value name="groupName">SIQA_OriginTest_OnPremAssets;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">Basics_1:ComplexFS</value>
+          <value name="serviceName">Basics_1:ComplexFS</value>
+          <value name="displayName">ComplexFS</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>

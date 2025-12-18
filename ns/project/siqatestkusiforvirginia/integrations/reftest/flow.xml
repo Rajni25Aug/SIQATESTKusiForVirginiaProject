@@ -8,4 +8,8 @@
 <INVOKE NAME="Reference Data" SERVICE="project.siqatestkusiforvirginia.referencedata:refrenceData">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="SIQA_OriginTest_OnPremAssets" SERVICE="Basics_1:ComplexFS">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
